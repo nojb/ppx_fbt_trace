@@ -1,0 +1,3 @@
+<src/ppx_fbt_trace.*>: package(compiler-libs.common), package(ppx_tools)
+<src/fbt_trace.*>: package(ANSITerminal)
+<test/*>: package(ppx_fbt_trace)

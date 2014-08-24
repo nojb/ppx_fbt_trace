@@ -1,0 +1,8 @@
+version = "1.0.0"
+description = "ppx extension for function boundary tracing"
+archive(byte) = "fbt_trace.cma"
+archive(byte, plugin) = "fbt_trace.cma"
+archive(native) = "fbt_trace.cmxa"
+archive(native, plugin) = "fbt_trace.cmxs"
+requires = "ANSITerminal unix compiler-libs.common ppx_tools"
+ppx = "./ppx_fbt_trace.byte"
